@@ -25,13 +25,12 @@ body {
 .nav-logo {
   width: inherit;
   height: inherit;
-  vertical-align: middle;
+  margin-top: -15%;
 }
 
 .collapse {
   z-index: 100;
   display: flex;
-  flex-direction: column;
 }
 
 .nav-search-form {
@@ -172,6 +171,8 @@ body {
 
   .collapse {
     background-color: #5e52ad;
+    flex-direction: column;
+    align-items: center;
   }
 
   .nav-link img {
