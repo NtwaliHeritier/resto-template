@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="styles/signup.css">
 </head>
 <body>
-                <div class="content">
+    <nav class="nav d-flex justify-content-between">
+        <img src="./images/black-appetit.svg" alt="">
+        <div class="moon" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M253.10,-6.41 C227.70,33.05 290.34,142.59 465.85,145.55 L504.22,145.55 L500.00,0.00 Z" style="stroke: none; fill: #5e52ad;"></path></svg>
+        </div>
+    </nav>
+                <main class="content">
                     <div class="form-container">
-                        <h1 class="text-white text-center mt-2">SIGN UP</h1>
                         <form>
                             <div class="input-flex">
                                 <input type="text" placeholder="first name" class="py-2 my-2">
@@ -36,7 +40,7 @@
                             </div>
                             <div class="inputs">
                                 <input type="text" placeholder="phone" class="py-2 my-2">
-                                <span class="text-white d-block">Hint: "phone start with +250"</span>
+                                <span class="d-block">Hint: "phone start with +250"</span>
                             </div>
                             <div class="input-flex">
                                 <input type="password" placeholder="Province" class="p-2 my-2">
@@ -55,13 +59,17 @@
                             <div class="inputs">
                                 <input type="password" placeholder="confirm password" class="py-2 my-2">
                             </div>
-                            <button class="py-2 my-2 bg-primary text-white">SIGN UP</button>
+                            <button class="py-2 my-4 text-white font-weight-bold button border-0">SIGN UP</button>
                         </form>
                         <div class="anchors">
-                            <p class="text-white">Already have an account? <a href="login.html">Login</a></p>
+                            <p>Already have an account? <a class="font-weight-bold" href="login.html">Login</a></p>
                         </div>
                     </div>
-                </div>
+                </main>
+
+                <footer>
+                    <p class="text-right px-5 font-weight-bold pb-3">&copy;2020 Appetit co</p>
+                </footer>
 
     <script src="https://kit.fontawesome.com/16d2250538.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
