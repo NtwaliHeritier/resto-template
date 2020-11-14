@@ -175,6 +175,10 @@ body {
     align-items: center;
   }
 
+  .navbar-toggler {
+    margin-top: -2%;
+  }
+
   .nav-link img {
     border-radius: 50%;
     width: 8vw !important;
