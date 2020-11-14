@@ -31,7 +31,6 @@ body {
 .collapse {
   z-index: 100;
   display: flex;
-  padding: 0 10px;
 }
 
 .nav-search-form {
